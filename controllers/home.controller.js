@@ -12,10 +12,6 @@ class HomeController {
     async about(req, res) {
         return render('about', res);
     }
-
-    async quotes(req, res) {
-        return render('quotes', res);
-    }
 }
 
 module.exports = new HomeController();
